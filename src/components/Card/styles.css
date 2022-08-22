@@ -1,0 +1,19 @@
+.card {
+  height: 100px;
+  width: 50%;
+
+  background: #735bf2;
+  color: #ffffff;
+  
+  border-radius: 10px;
+  margin-bottom: 20px; /*para as caixas nao ficarem grudadas*/
+
+  display: flex;
+  align-items: center; /*alinhar as caixas pelo centro*/
+  justify-content: space-between; /*alinhas as escritas dentro das caixas, para os extremos*/
+  padding: 24px; /*para afastar as letras dos cantos*/
+}
+
+.card strong {
+  font-size: 18px;
+}
